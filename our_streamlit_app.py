@@ -2,15 +2,15 @@
 ## pip install streamlit
 import streamlit as st
 #
-# ## Step 2 Let's put and image
-# ## Make the default width setting spann the entire screen
+# ## Step 2 Let's put an image
+# ## Make the default width setting span the entire screen
 st.set_page_config(layout="wide")
 random_url = "https://assets.phenompeople.com/CareerConnectResources/prod/HONEUS/images/1920-568-coding-blog-1616781712070.png"
 st.image(random_url, use_column_width="always")
 #
 # ## Step 3: Let's Write Some Text
-st.title("Machine Learning 3000")
-st.markdown("# Machine Learning 6000")
+st.title("Streamlit 3000")
+st.markdown("# Streamlit 6000")
 st.latex(r'''
      a + ar + a r^2 + a r^3 + \cdots + a r^{n-1} =
      \sum_{k=0}^{n-1} ar^k =
