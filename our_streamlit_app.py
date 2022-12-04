@@ -1,4 +1,4 @@
-## Step 1: Install Stremalit
+## Step 1: Install Streamlit
 ## pip install streamlit
 import streamlit as st
 #
